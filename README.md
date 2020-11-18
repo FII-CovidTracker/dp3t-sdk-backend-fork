@@ -1,6 +1,6 @@
 # dp3t-sdk-backend-fork
 
-This is a fork of the [prestandard dp3t-sdk-backend](https://github.com/DP-3T/dp3t-sdk-backend)
+This is a fork of the [prestandard dp3t-sdk-backend](https://github.com/DP-3T/dp3t-sdk-backend/tree/v1.0.0)
 
 ## To build it:
 1. add the `application.properties` file in `dpppt-backend-sdk/dpppt-backend-sdk-ws/src/main/resources/application.properties`

@@ -1,0 +1,11 @@
+runtime: java11
+service: tracking
+entrypoint: java -jar dpppt-backend-sdk-ws-1.0.0-SNAPSHOT.jar org.dpppt.backend.sdk.ws.Application
+vpc_access_connector:
+  name: projects/fii-covidtracker/locations/europe-west3/connectors/covid-tracker-connector
+env_variables:
+  CLOUD_SQL_DPPPT_USERNAME: <username>
+  CLOUD_SQL_DPPPT_PASSWORD: <password>
+  CLOUD_SQL_DPPPT_DATABASE_NAME: <db_name>
+  CLOUD_SQL_CONNECTION_NAME: <conenction_name>
+instance_class: F4
